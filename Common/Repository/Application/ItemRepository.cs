@@ -80,14 +80,23 @@ namespace Common.Repository.Application
             var get = Get(id);
             if (get != null)
             {
-                get.Update(id, itemVM);
-                myContext.Entry(get).State = EntityState.Modified;
-                var result = myContext.SaveChanges();
-                return result > 0;
+                var getSup = myContext.Suppliers.Find(get.Supplier_Id);
+                if(getSup != null)
+                {
+                    get.Supplier = getSup;
+                    get.Update(id, itemVM);
+                    myContext.Entry(get).State = EntityState.Modified;
+                    var result = myContext.SaveChanges();
+                    return result > 0;
+                }
+                else
+                {
+                    return status;
+                }
             }
             else
             {
-                return false;
+                return status;
             }
         }
     }
