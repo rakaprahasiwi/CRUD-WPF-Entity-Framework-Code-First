@@ -1,0 +1,14 @@
+E:\WPF\WpfApp\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+E:\WPF\WpfApp\DataAccess\bin\Debug\DataAccess.exe.config
+E:\WPF\WpfApp\DataAccess\bin\Debug\DataAccess.exe
+E:\WPF\WpfApp\DataAccess\bin\Debug\DataAccess.pdb
+E:\WPF\WpfApp\DataAccess\bin\Debug\Core.exe
+E:\WPF\WpfApp\DataAccess\bin\Debug\EntityFramework.dll
+E:\WPF\WpfApp\DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+E:\WPF\WpfApp\DataAccess\bin\Debug\Core.pdb
+E:\WPF\WpfApp\DataAccess\bin\Debug\EntityFramework.xml
+E:\WPF\WpfApp\DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+E:\WPF\WpfApp\DataAccess\obj\Debug\DataAccess.exe
+E:\WPF\WpfApp\DataAccess\obj\Debug\DataAccess.pdb
+E:\WPF\WpfApp\DataAccess\obj\Debug\DataAccess.Migrations.dataAccessMigration.resources
+E:\WPF\WpfApp\DataAccess\obj\Debug\DataAccess.csproj.GenerateResource.Cache

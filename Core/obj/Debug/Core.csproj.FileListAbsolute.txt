@@ -1,0 +1,9 @@
+E:\WPF\WpfApp\Core\bin\Debug\Core.exe.config
+E:\WPF\WpfApp\Core\bin\Debug\Core.exe
+E:\WPF\WpfApp\Core\bin\Debug\Core.pdb
+E:\WPF\WpfApp\Core\bin\Debug\EntityFramework.dll
+E:\WPF\WpfApp\Core\bin\Debug\EntityFramework.SqlServer.dll
+E:\WPF\WpfApp\Core\bin\Debug\EntityFramework.xml
+E:\WPF\WpfApp\Core\bin\Debug\EntityFramework.SqlServer.xml
+E:\WPF\WpfApp\Core\obj\Debug\Core.exe
+E:\WPF\WpfApp\Core\obj\Debug\Core.pdb

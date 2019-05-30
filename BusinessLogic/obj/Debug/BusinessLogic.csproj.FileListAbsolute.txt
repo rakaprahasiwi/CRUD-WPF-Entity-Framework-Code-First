@@ -1,0 +1,16 @@
+E:\WPF\WpfApp\BusinessLogic\bin\Debug\BusinessLogic.exe.config
+E:\WPF\WpfApp\BusinessLogic\bin\Debug\BusinessLogic.exe
+E:\WPF\WpfApp\BusinessLogic\bin\Debug\BusinessLogic.pdb
+E:\WPF\WpfApp\BusinessLogic\bin\Debug\Common.exe
+E:\WPF\WpfApp\BusinessLogic\bin\Debug\DataAccess.exe
+E:\WPF\WpfApp\BusinessLogic\bin\Debug\EntityFramework.dll
+E:\WPF\WpfApp\BusinessLogic\bin\Debug\EntityFramework.SqlServer.dll
+E:\WPF\WpfApp\BusinessLogic\bin\Debug\Core.exe
+E:\WPF\WpfApp\BusinessLogic\bin\Debug\Common.pdb
+E:\WPF\WpfApp\BusinessLogic\bin\Debug\DataAccess.pdb
+E:\WPF\WpfApp\BusinessLogic\bin\Debug\EntityFramework.xml
+E:\WPF\WpfApp\BusinessLogic\bin\Debug\EntityFramework.SqlServer.xml
+E:\WPF\WpfApp\BusinessLogic\bin\Debug\Core.pdb
+E:\WPF\WpfApp\BusinessLogic\obj\Debug\BusinessLogic.csprojResolveAssemblyReference.cache
+E:\WPF\WpfApp\BusinessLogic\obj\Debug\BusinessLogic.exe
+E:\WPF\WpfApp\BusinessLogic\obj\Debug\BusinessLogic.pdb
