@@ -26,8 +26,9 @@
                     </GroupBox>
                     <GroupBox x:Name="groupBox1" Header="Action" HorizontalAlignment="Left" Margin="267,263,0,0" VerticalAlignment="Top" Width="337" Height="69">
                         <StackPanel HorizontalAlignment="Left" Height="44" Margin="0,0,-2,0" Orientation="Horizontal" VerticalAlignment="Center" Width="327">
-                            <Button x:Name="button_saveOrEdit" Content="Save or Edit"  Width="82" Margin="60,10,0,10" Click="button_saveOrEdit_Click" />
-                            <Button x:Name="button_delete" Content="Delete"  Width="82" Margin="50,10,0,10" Click="button_delete_Click" />
+                            <Button x:Name="button_saveOrEdit" Content="Save or Edit"  Width="82" Margin="10,10,0,10" Click="button_saveOrEdit_Click" />
+                            <Button x:Name="button_reset_supplier" Content="Reset" Width="82" Margin="30,10,0,10" Click="button_reset_supplier_Click"/>
+                            <Button x:Name="button_delete" Content="Delete"  Width="82" Margin="25,10,0,10" Click="button_delete_Click" />
                         </StackPanel>
                     </GroupBox>
                     <TextBox x:Name="textBox_search" HorizontalAlignment="Left" Height="23" Margin="0,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="145" />
@@ -42,7 +43,7 @@
                             <DataGridTextColumn Header="Name" Binding="{Binding Path=Name}"></DataGridTextColumn>
                             <DataGridTextColumn Header="Stock" Binding="{Binding Path=Stock}"></DataGridTextColumn>
                             <DataGridTextColumn Header="Price" Binding="{Binding Path=Price}"></DataGridTextColumn>
-                            <DataGridTextColumn Header="Supplier" Binding="{Binding Path=Supplier.Name}"></DataGridTextColumn>
+                            <DataGridTextColumn Header="Supplier" Binding="{Binding Path=Suppliers.Name}"></DataGridTextColumn>
                         </DataGrid.Columns>
                     </DataGrid>
                     <GroupBox x:Name="groupBox_item" Header="Item Form" HorizontalAlignment="Left" Margin="267,0,0,0" VerticalAlignment="Top" Height="285" Width="337">
@@ -61,8 +62,9 @@
                     </GroupBox>
                     <GroupBox x:Name="groupBox2" Header="Action" HorizontalAlignment="Left" Margin="267,323,0,0" VerticalAlignment="Top" Width="337" Height="69">
                         <StackPanel HorizontalAlignment="Left" Height="44" Margin="0,0,-2,0" Orientation="Horizontal" VerticalAlignment="Center" Width="327">
-                            <Button x:Name="button_saveOrEdit_item" Content="Save or Edit"  Width="82" Margin="60,10,0,10" Click="button_saveOrEditItem_Click" />
-                            <Button x:Name="button_delete_item" Content="Delete"  Width="82" Margin="50,10,0,10" Click="button_deleteItem_Click" />
+                            <Button x:Name="button_saveOrEdit_item" Content="Save or Edit"  Width="82" Margin="20,10,0,10" Click="button_saveOrEditItem_Click" />
+                            <Button x:Name="button_reset_item" Content="Reset"  Width="82" Margin="30,10,0,10" Click="button_reset_item_Click" />
+                            <Button x:Name="button_delete_item" Content="Delete"  Width="82" Margin="25,10,0,10" Click="button_deleteItem_Click" />
                         </StackPanel>
                     </GroupBox>
                     <TextBox x:Name="textBox_search_item" HorizontalAlignment="Left" Height="23" Margin="0,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="145" />

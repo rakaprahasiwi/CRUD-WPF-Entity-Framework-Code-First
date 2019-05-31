@@ -46,9 +46,9 @@ namespace DataAccess.Models
         public int Stock { get; set; }
         public double Price { get; set; }
 
-        [ForeignKey("Supplier")]
+        [ForeignKey("Suppliers")]
         public int Supplier_Id { get; set; } //manual foreignkey to Supplier table
-        public Suppliers Supplier { get; set; } //automatic foreignkey to Supplier table
+        public Suppliers Suppliers { get; set; } //automatic foreignkey to Supplier table
     }
 
 }

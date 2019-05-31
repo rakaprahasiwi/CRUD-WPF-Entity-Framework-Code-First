@@ -64,6 +64,7 @@ namespace WpfApp
                     MessageBox.Show("Update Failed");
                 }
             }
+            reset_supplier();
             Show();
         }
 
@@ -99,7 +100,7 @@ namespace WpfApp
                     MessageBox.Show("Update Failed");
                 }
             }
-            
+            reset_item();
             Show();
         }
 
@@ -125,6 +126,7 @@ namespace WpfApp
                     }
                 }
             }
+            reset_supplier();
             Show();
         }
 
@@ -150,6 +152,7 @@ namespace WpfApp
                     }
                 }
             }
+            reset_item();
             Show();
         }
 
@@ -158,6 +161,21 @@ namespace WpfApp
             dataGrid_supplier.ItemsSource = iSupplierService.Get();
             dataGrid_item.ItemsSource = iItemService.Get();
             comboBox_item.ItemsSource = iSupplierService.Get();
+        }
+
+        private void reset_supplier()
+        {
+            textBox_id.Text = "";
+            textBox_name.Text = "";
+        }
+
+        private void reset_item()
+        {
+            textBox_id_item.Text = "";
+            textBox_name_item.Text = "";
+            textBox_Stock_item.Text = "";
+            textBox_price_item.Text = "";
+            comboBox_item.Text = "";
         }
         
         private void button_search_Click(object sender, RoutedEventArgs e)
@@ -237,6 +255,16 @@ namespace WpfApp
         {
             Regex regex = new Regex("^[,][0-9]+$|^[0-9]*[,]{0,1}[0-9]*$");
             e.Handled = !regex.IsMatch((sender as TextBox).Text.Insert((sender as TextBox).SelectionStart, e.Text));
+        }
+
+        private void button_reset_supplier_Click(object sender, RoutedEventArgs e)
+        {
+            reset_supplier();
+        }
+
+        private void button_reset_item_Click(object sender, RoutedEventArgs e)
+        {
+            reset_item();
         }
     }
 }

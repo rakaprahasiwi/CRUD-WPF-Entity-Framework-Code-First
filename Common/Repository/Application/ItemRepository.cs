@@ -56,7 +56,7 @@ namespace Common.Repository.Application
             var get = myContext.Suppliers.Find(itemVM.Supplier_Id);
             if(get != null)
             {
-                push.Supplier = get;
+                push.Suppliers = get;
                 myContext.Item.Add(push);
                 var result = myContext.SaveChanges();
                 if (result > 0)
@@ -83,7 +83,7 @@ namespace Common.Repository.Application
                 var getSup = myContext.Suppliers.Find(get.Supplier_Id);
                 if(getSup != null)
                 {
-                    get.Supplier = getSup;
+                    get.Suppliers = getSup;
                     get.Update(id, itemVM);
                     myContext.Entry(get).State = EntityState.Modified;
                     var result = myContext.SaveChanges();
